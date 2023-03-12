@@ -1,6 +1,7 @@
 name: sample-dockerfile
 services:
-  - dockerfile_path: Dockerfile
+  - dockerfile_path: services/sample/Dockerfile
+    source_dir: services/sample
     github:
       branch: 'feature/test'
       deploy_on_push: true

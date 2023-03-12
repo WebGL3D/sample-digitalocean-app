@@ -1,5 +1,5 @@
 name: sample-dockerfile
-services:
+static_sites:
   - dockerfile_path: Dockerfile
     github:
       branch: 'feature/test'
